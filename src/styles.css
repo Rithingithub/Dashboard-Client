@@ -1,1 +1,74 @@
 /* You can add global styles to this file, and also import other style files */
+.auth-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-form input {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+  font-size: 1rem;
+  outline: none;
+}
+
+.primary-btn {
+  padding: 0.75rem;
+  border: none;
+  background: var(--red-to-pink-to-purple-horizontal-gradient);
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.primary-btn:hover {
+  filter: brightness(1.1);
+}
+
+.error-msg {
+  color: var(--hot-red);
+  font-weight: 500;
+}
+
+.success-msg {
+  color: green;
+  font-weight: 500;
+}
+
+.register-link {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.dashboard-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.chart-wrapper {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: var(--gray-900);
+}
