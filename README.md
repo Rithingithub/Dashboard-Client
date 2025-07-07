@@ -2,6 +2,21 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
 
+## Clone the repo
+
+```
+git clone https://github.com/Rithingithub/Dashboard-Client
+cd Dashboard-Client
+```
+
+## Install Packages
+
+`npm install`
+
+## Change API URL in environment
+
+`apiBaseUrl: 'https://localhost:7145/api'`
+
 ## Development server
 
 To start a local development server, run:
