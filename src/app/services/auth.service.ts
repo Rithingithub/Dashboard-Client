@@ -19,6 +19,7 @@ export class AuthService {
         tap((res) => {
           this.jwtToken = res.token;
           localStorage.setItem('token', res.token);
+          localStorage.setItem('username', username);
         })
       );
   }

@@ -72,3 +72,22 @@
   font-size: 1.8rem;
   color: var(--gray-900);
 }
+
+.dashboard-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-info button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
